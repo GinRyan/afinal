@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package net.tsz.afinal.reflect;
+package net.tsz.afinal.utils;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -238,7 +238,7 @@ public class FieldUtils {
 	
 	
 	/**
-	 * 获取某个熟悉对应的 表的列
+	 * 获取某个属性对应的 表的列
 	 * @param entity
 	 * @param fieldName
 	 * @return
